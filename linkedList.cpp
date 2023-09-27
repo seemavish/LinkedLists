@@ -51,7 +51,7 @@ void List::insertAtHead(Node *&head, int value)
 void List::insertBetween(Node *&head, int value, int position)
 {
     if(position < 0){
-        invalid_argument("Position cannot be negative");
+        invalid_argument("Invalid position");
     }
 
     Node *newNode = new Node(value);
