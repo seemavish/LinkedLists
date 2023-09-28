@@ -14,7 +14,7 @@ struct Node
 
 class List
 {
-private:
+public:
     Node* head;
 
 public:
